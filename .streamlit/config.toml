@@ -1,0 +1,16 @@
+[theme]
+base = "light"
+primaryColor = "#1d6ff2"
+backgroundColor = "#f4f7fb"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#0f172a"
+font = "sans serif"
+
+[server]
+maxUploadSize = 500
+# Avoids noisy PyTorch/file-watcher errors on Windows.
+fileWatcherType = "none"
+headless = false
+
+[browser]
+gatherUsageStats = false
